@@ -7,7 +7,7 @@ class Main {
   // program begins.  
 
   void init(){
-    System.out.printIn("Hello World");
+    System.out.println("Hello World");
    
     
   }
