@@ -16,7 +16,7 @@ class Main {
    int x=6;
    int y=-70
    double z= x+y;
-   System.out.println(z)
+   System.out.println("Sum  is"+  Sum)
 
 
 /*  
@@ -26,12 +26,11 @@ class Main {
     calculated sum and then display it.
     
 */
-int grade1=95
-int grade2=75
-int grade=45
-double average=grade1+grade2+grade3/3;
-System.out.println(average);
-
+int grade1=95;
+int grade2=75;
+int grade=45;
+sum=grade1+grade+grade3;
+System.out.println("sum of grades"+sum);
 
 /*  
     Challenge 3:
@@ -40,8 +39,8 @@ System.out.println(average);
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-int grade1+grade2+grade3/3=185;
-int avg=185;
+double avg=sum/3.0;
+System.out.println("avg is"+avg);
 
 
 /*  
@@ -50,11 +49,10 @@ int avg=185;
     Declare and assign values to any new variables
 
 */
-  int a=16
-  int x=2
-  double answer= 16/2+2;
-  System.out.println(answer);
-
+double A=2.5;
+double x=1.4;
+double y=0;
+System.out.println("y is" +y);
 /*  
     Challenge 5:
     Using the variables same variables from challenge4 above, write the following equation in EQ2.PNG file in Java, store the result and the display it:
@@ -62,9 +60,10 @@ int avg=185;
     Declare and assign values to any new variables
 
 */
- int answer=16/2+2=10;
- int answer=10;
 
+y=(2*y(x+1)*(-x/2))/A;
+
+System.out.println("y is" +y);
 
 
 
@@ -76,10 +75,10 @@ int avg=185;
 
     Declare and assign values to any new variables
 */
- b=10
- h=15
- double area=1/2*10*15;
- System.out.println(area);
+ double area=0;
+ double b=3.7;
+ area=2/2.0*b*h;
+ System.out.println("area is"+ area);
 
 
 
