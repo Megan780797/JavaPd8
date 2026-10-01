@@ -4,36 +4,27 @@
 Challenge 1:
 
 Write a function "print" which takes in a string and displays it to the console. Test the function to make sure it works.
-void print(){
-    System.out.println("message");
-    return result;
-
-}
+void init{
+System.out.println("Enter your name");
+String name= Input.readDouble();
+print("Welcome"+name);
 
 Challenge 2:
 
 Write a function "FtoC" that converts temperature in degrees Fahrenheit to Celsius. The function will take in temperature in Fahrenheit and return the temperature in Celcius. 
 Google the formula.
-viod Ftoc(){
-    double FtoC(double f, double C){
-      double result=F-32*5/9;
-      return result
-
-    }
-}
-
+System.out.println(n("Enter a temperature in farenhiet");)
+double F=Input.readDouble();
+print(("Is) +FToC(F)+"Celsuis");
    
 
 Challenge 3:
 
 Write a function "sphereVolume" that calculate the volume of a sphere. The function will take in the radius and return the volume of a sphere.
 Google the formula.
-sphereVolume( double r){
-    double result= r*r*r;
-    return result;
-
-
-}
+System.out.println("Enter the radius of the sphere");
+double rad=Input.readDouble();
+print("The volume of a sphere with a radiud og"+rad+"has volume of"+sphereVolume(rad));
 
    
 
@@ -41,10 +32,8 @@ Challenge 4:
 
 Write a function "coneVolume" that calculate the volume of a cone. The function will take in the radius and a height and return the volume of a cone.
 Google the formula.
-coneVolume(double r){
-    double return= r*r;
-    return result;
-}
+Sys
+rad=Input.readDouble();
 
    
 
