@@ -46,6 +46,6 @@ distance(x2,x1,y2,y1){
      result=math.pow(y2-y1/x2-x1);
     return result;
 }
-
+}
 
    
