@@ -19,26 +19,32 @@ class Main {
 
 }
 // Challenge 1//
-void allowance(){
-  int 
+void solve(){
+  int x=1;
+  qhile(!(Math.pow(2,x)>500)){
+    x++;
+  }
+  print (x);
+  }
 
-}
 //Challenge 2//
-int addTwoNumbers(){
-  int x1=3;
-  int x2=5
-  while(x1+x2=8){
-    print("Yes you are correct");
-  else{
-    print("No you are not right try again!")
+void addTwoNumbers(){
+  int n1=randInt(0,100);
+  int n2=randInt(0,100);
+  print("What is sum of"n1+"and"+n2);
+  int answer=Input.readInt();
+  while(!(answer==n1+n2)){
+    print("Incorrect, try again......");
+    answer=Input.readInt();
   }
-  }
+  print("Correct");
 }
 // Challenge 3//
-int GCF(){
-  int GCF=2;
-  while(15%15=0 && 20%15=0){
-    print("The GCF is " ....);
+int GCF(int n1, int n2){
+  int divisor=Math.min(n1,n2);
+  while(!(n1%divisor==0&&n2%divisor==0)){
+    divisor--;
   }
-}
+  return divisor;
+  }
 }
