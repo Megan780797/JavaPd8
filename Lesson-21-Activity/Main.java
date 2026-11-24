@@ -42,7 +42,7 @@ void addTwoNumbers(){
 // Challenge 3//
 int GCF(int n1, int n2){
   int divisor=Math.min(n1,n2);
-  while(!(n1%divisor==0&&n2%divisor==0)){
+  while(!(n1%divisor==0 && n2%divisor==0)){
     divisor--;
   }
   return divisor;
